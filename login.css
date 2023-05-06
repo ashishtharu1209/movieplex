@@ -1,0 +1,104 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-image: linear-gradient( rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('black.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}  
+.login{  
+        width: 300px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;
+        margin-top: 5em;
+        padding: 80px;  
+        background:lightgray; 
+        border-radius: 15px ;
+        padding-top: 10px;
+          
+;
+}  
+h2{  
+    text-align: center;  
+    color:#ff105f;  
+   
+} 
+h1{  
+    text-align: center;  
+    color:white;  
+   
+} 
+label{  
+    color: darkviolet;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;    
+}  
+#log{  
+    width: 300px;  
+    height: 40px;
+    font-size: medium;
+    display: block;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color:white;  
+    background: linear-gradient( to right,#ff105f,#ffad06);
+  
+  
+}  
+#log:hover{
+    opacity: 0.7;
+	cursor: pointer;
+}
+span{  
+    color:#ff105f;  
+    font-size: 17px;  
+}  
+a{ 
+    color:#ff105f;
+   
+}
+.social{
+	display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+;
+}
+.social a{
+	width: 45px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient( to right,#ff105f,#ffad06);
+	border-radius: 50%;
+	margin: 30px 15px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	border-bottom:2px solid violet ;
+	
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+	color:darkviolet;
+    box-shadow: 0 0 20px #ffad06;
+}
+
